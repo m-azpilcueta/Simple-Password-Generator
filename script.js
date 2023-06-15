@@ -18,6 +18,7 @@ const uppercase = document.getElementById("uppercase");
 const specialChar = document.getElementById("special-chars");
 const numbers = document.getElementById("numbers");
 const generateButton = document.getElementById("generate");
+const copyButton = document.getElementById("copy");
 
 sliderValue.value = slider.value;
 
@@ -25,6 +26,14 @@ slider.addEventListener("input", () => {
   const _sliderValue = slider.value;
   sliderValue.value = _sliderValue;
 });
+
+const copyToClipboard = () => {
+  const password = document.getElementById("password");
+  password.select();
+  document.execCommand("copy");
+};
+
+copyButton.addEventListener("click", copyToClipboard);
 
 const generatePassword = () => {
   const _sliderValue = slider.value;

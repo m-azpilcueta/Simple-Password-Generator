@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Password Generator</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="manifest" href="manifest.json" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <meta name="theme-color" content="#7F00FF" />
+    <meta name="apple-mobile-web-app-status-bar" content="#7F00FF" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
   </head>
   <body>
     <div class="container">
@@ -12,6 +20,9 @@
       <div class="password-container">
         <input id="password" class="password" readonly />
         <span class="time-to-crack">Placeholder</span>
+        <button id="copy" class="copy">
+          <i class="far fa-clipboard"></i>
+        </button>
       </div>
       <div class="range-container">
         <label for="range-value">Length:</label>
