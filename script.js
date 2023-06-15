@@ -1,3 +1,16 @@
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("serviceWorker.js")
+      .then((registration) => {
+        console.log("Service Worker Registered");
+      })
+      .catch((err) => {
+        console.log("Service Worker Failed to Register", err);
+      });
+  });
+}
+
 const lowercase = "abcdefghijklmnopqrstuvwxyz";
 const uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 const specialChars = "!@#$%^&*()_+~`|}{[]:;?><,./-=";
