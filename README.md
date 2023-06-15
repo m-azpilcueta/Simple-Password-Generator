@@ -16,7 +16,7 @@ A simple and handy Progressive Web App (PWA) that generates random passwords bas
 2. Customize your password preferences:
    - Specify the desired password length using the number input field.
    - Select the options to include or exclude special characters, numbers, and uppercase letters by checking or unchecking the corresponding checkboxes.
-3. Click the "Generate Password" button to generate a random password based on your preferences.
+3. Click the "Generate" button to generate a random password based on your preferences.
 4. The generated password will be displayed on the screen.
 5. Double click on the generated password to copy it to your clipboard.
 6. Use the copied password securely for your desired purposes.

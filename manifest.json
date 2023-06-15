@@ -1,0 +1,16 @@
+{
+  "name": "Simple Password Generator",
+  "short_name": "Simple Password Generator",
+  "description": "Enjoy generating secure passwords with the Password Generator PWA! Stay safe and protect your online accounts with strong passwords. 🔒",
+  "version": "1.0.0",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#7F00FF",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
